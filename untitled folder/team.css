@@ -8,6 +8,7 @@
 html{
 	font-size: 10px;
 	font-family: 'Poppins', sans-serif;
+
 }
 
 a{
@@ -15,13 +16,13 @@ a{
 	color: #eee;
 }
 
-header{
+body {
 	width: 100%;
 	height: 100vh;
 	background: url("https://www.cs.technion.ac.il/~cs234313/projects_sites/W19/14/site/images/background2.jpg") center no-repeat;
 	background-size: cover;
 	position: relative;
-  overflow: hidden;
+
 }   
 
 .container{
@@ -86,7 +87,14 @@ nav ul li:nth-child(3){
 nav ul li:nth-child(4){
 	animation-delay: 1.5s;
 }
+nav ul li:nth-child(5){
+	animation-delay: 2s;
+}
 
+nav ul li:nth-child(6){
+	animation-delay: 2.5s;
+
+}
 nav ul li a{
 	padding: 1rem 0;
 	margin: 0 3rem;
@@ -190,18 +198,11 @@ nav ul li a:hover::after{
 }
   .testimonials{
     padding: 40px 0;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 25px;
     
   }
-  .inner{
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
-  }
-  
   .border{
     width: 160px;
     height: 5px;
@@ -234,23 +235,79 @@ nav ul li a:hover::after{
     text-transform: uppercase;
     margin: 20px 0;
   }
-  .stars{
-    color: #6ab04c;
-    margin-bottom: 20px;
+
+
+
+
+/*h1 is done*/  
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	margin-top: 2%;
+	font-size: 40px;
+}
+
+.Kate {
+	width: 700px;
+	height: 400px;
+	background-color: none;
+	font-size: 20px;
+	margin-bottom: 10%;
+	border-radius: 25px;
+	margin-top: 8%;
+	margin-left: 0;
+	color: white;
+	
   }
-  
-  
-  @media screen and (max-width:960px) {
-  .col{
-    flex: 100%;
-    max-width: 80%;
+.Ace {
+	width: 600px;
+	height: 350px;
+	background-color: none;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10%;
+	border-radius: 25px;
+	margin-top: 8%;
+	margin-left: -5;
+	padding-left: -10%;
+
+}
+.desc {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+.name {
+	margin-bottom: 10%;
+	margin-top: 0%;
+	margin-left: 10%;
+	font-size: 30px;
+}
+
+.border2{
+    width: 300px;
+    height: 3px;
+    background: orangered;
+	margin-left: 10%;
+	margin-top: -8%;
   }
-  }
-  
-  @media screen and (max-width:600px) {
-  .col{
-    flex: 100%;
-    max-width: 100%;
-  }
-  }
-  
+
+img {
+	margin-left: 130%;
+	margin-top: -30%;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+}
+
+img.img2 {
+	margin-left: 114%;
+	margin-top: -30%;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
