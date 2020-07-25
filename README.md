@@ -8,7 +8,7 @@ Here is what we are doing:
 - Develop the website (animation, etc.)
 - Trying to improve coding based knowledge learning and sharing.
 
-If you want more experience, we always welcome you to our group. Make sure you are active =)))
+If you want more experience, we always welcome you to our group. Make sure you are active =)
 
 Our discord server: https://discord.gg/aUz8mHs. Tell us on #general when you come. 
 
